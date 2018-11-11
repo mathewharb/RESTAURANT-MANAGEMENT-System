@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.7.3
--- https://www.phpmyadmin.net/
---
--- Host: localhost:8889
--- Generation Time: Mar 01, 2018 at 03:05 PM
--- Server version: 5.6.35
--- PHP Version: 7.0.22
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -49,7 +42,7 @@ CREATE TABLE `company` (
 --
 
 INSERT INTO `company` (`id`, `company_name`, `service_charge_value`, `vat_charge_value`, `address`, `phone`, `country`, `message`, `currency`) VALUES
-(1, 'Lulu', '', '13', 'READING', '234234235', 'Spai', 'this is just an testing', 'USD');
+(1, 'Lulu', '', '13', 'READING', '234234235', 'Spai', 'this is just an testing', 'GMD');
 
 -- --------------------------------------------------------
 
